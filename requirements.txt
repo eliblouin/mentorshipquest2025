@@ -1,6 +1,5 @@
 pandas
-matplotlib.cm
+matplotlib
 numpy
-matplotlib.pyplot
 streamlit
 webbrowser
