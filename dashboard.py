@@ -30,8 +30,14 @@ def website_setup(df, colork = 'yellow'):
         unsafe_allow_html=True
     )
     st.title("🏆 Mission: Mentorship Dashboard")
-    st.link_button("Register Your Team", register_url)
-    st.link_button("Submit a Challenge", submit_url)
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.link_button("Register Your Team", register_url)
+    with col2:
+        st.link_button("Submit a Challenge", submit_url)
+    # st.link_button("Register Your Team", register_url)
+    # st.link_button("Submit a Challenge", submit_url)
     st.text("Updated on 9/5/2025 at 7:50PM EST")
     img = Image.open("mentorship.png")
     st.image(img, width=700)
@@ -96,4 +102,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
