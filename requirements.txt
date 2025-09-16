@@ -1,0 +1,6 @@
+pandas
+matplotlib.cm
+numpy
+matplotlib.pyplot
+streamlit
+webbrowser
