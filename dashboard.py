@@ -14,6 +14,7 @@ from PIL import Image
 
 register_url = "https://forms.gle/nqgbBFfeuBTQsXBPA"
 submit_url = "https://forms.gle/J3cpLXXRBZG9Pdoc8"
+challenge_url = "https://bentleyedu-my.sharepoint.com/:x:/g/personal/eblouin_falcon_bentley_edu/ESljbP3UZDFNijtfruMacAsB4YntveRmGvgCr45wfLxprA?e=Mi5e9q"
 
 def website_setup(df, colork = 'yellow'):
     # [PY5] A dictionary where you write code to access its keys, values, or items
@@ -36,6 +37,8 @@ def website_setup(df, colork = 'yellow'):
         st.link_button("Register Your Team", register_url)
     with col2:
         st.link_button("Submit a Challenge", submit_url)
+    with col3:
+        st.link_button("View Task Sheet", challenge_url)
     # st.link_button("Register Your Team", register_url)
     # st.link_button("Submit a Challenge", submit_url)
     st.text("Updated on 9/5/2025 at 7:50PM EST")
@@ -102,5 +105,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
