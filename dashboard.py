@@ -38,7 +38,7 @@ def website_setup(df, colork = 'yellow'):
     with col2:
         st.link_button("Submit a Challenge", submit_url)
     with col3:
-        st.link_button("View Task Sheet", challenge_url)
+        st.link_button("View Challenge Sheet", challenge_url)
     # st.link_button("Register Your Team", register_url)
     # st.link_button("Submit a Challenge", submit_url)
     st.text("Updated on 9/5/2025 at 7:50PM EST")
@@ -105,6 +105,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
