@@ -2,4 +2,4 @@ pandas
 matplotlib
 numpy
 streamlit
-webbrowser
+
