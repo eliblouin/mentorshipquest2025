@@ -41,7 +41,7 @@ def website_setup(df, colork = 'yellow'):
         st.link_button("View Challenge Sheet", challenge_url)
     # st.link_button("Register Your Team", register_url)
     # st.link_button("Submit a Challenge", submit_url)
-    st.text("Updated on 9/30/2025 at 1:00PM EST")
+    st.text("Updated on 10/22/2025 at 9:45PM EST")
     img = Image.open("mentorship.png")
     st.image(img, width=700)
     # Load CSV
@@ -105,6 +105,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
